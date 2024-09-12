@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ventas</title>
+  <link rel="stylesheet" href="/css/tienda.css">
+</head>
+<body>
+  <header>
+    <h1>Tienda Online</h1>
+  </header>
+  
+  <section class="product-list">
+    <div class="product">
+      <img src="/imagen/producto01.jpg" alt="Producto 1">
+      <h2>Producto 1</h2>
+      <p>$25.00</p>
+      <button class="add-to-cart" data-product="Producto 1" data-price="25">Agregar al carrito</button>
+    </div>
+    <div class="product">
+      <img src="/imagen/producto02.jpg" alt="Producto 2">
+      <h2>Producto 2</h2>
+      <p>$35.00</p>
+      <button class="add-to-cart" data-product="Producto 2" data-price="35">Agregar al carrito</button>
+    </div>
+    <!-- Más productos -->
+  </section>
+  
+  <!-- Carrito -->
+  <section id="cart">
+    <h2>Carrito de Compras</h2>
+    <ul id="cart-items"></ul>
+    <p>Total: $<span id="total-price">0</span></p>
+  </section>
+  
+
+  <footer>
+    <p>© 2024 Tienda Online. Todos los derechos reservados.</p>
+  </footer>
+  
+  <script src="/javascript/tienda.js"></script>
+</body>
+</html>
